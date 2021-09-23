@@ -26,6 +26,7 @@ namespace Day4
                 empHrs = 0;
             }
             empWage = empHrs * EMP_RATE_PER_HR;
+
             Console.WriteLine("EmpWage : " + empWage);
         }
     }
