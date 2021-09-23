@@ -14,9 +14,9 @@ namespace Day4
             //Computation
             int empCheck = random.Next(0, 2);
             if (empCheck == IS_FULL_TIME)
-                Console.WriteLine("Employee is Present");
+                Console.WriteLine("Employee is present");
             else
-                Console.WriteLine("Employee is Absent");
+                Console.WriteLine("Employee is absent");
             Console.ReadKey();
         }
 
